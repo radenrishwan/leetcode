@@ -1,4 +1,4 @@
-/// Leetcode: 58. Length of Last Word [leetcode.com/problems/length-of-last-word/]
+/// leetcode: 58. Length of Last Word [leetcode.com/problems/length-of-last-word/]
 pub fn length_of_last_word(s: String) -> i32 {
     let word: Vec<&str> = s.trim().split(" ").collect();
 

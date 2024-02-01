@@ -1,3 +1,4 @@
+/// leetcode: 67. add binary [https://leetcode.com/problems/add-binary/]ß
 pub fn add_binary(a: String, b: String) -> String {
     let mut result = String::new();
     let mut carry = 0;
